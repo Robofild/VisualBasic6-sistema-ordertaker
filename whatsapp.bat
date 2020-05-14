@@ -1,0 +1,1 @@
+start /MAX "C:\Program Files\Internet Explorer\iexplore.exe" "https://web.whatsapp.com"

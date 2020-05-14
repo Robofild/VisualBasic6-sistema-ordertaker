@@ -1,0 +1,1 @@
+start /MAX "C:\Program Files\Internet Explorer\iexplore.exe" "https://mail.google.com/mail/u/0/#inbox"

@@ -1,0 +1,382 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Tele BH Amarelinho|TEste novo]
+Icon1=Amarelinho.exe
+Title1=TEste novo
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Tele BH Amarelinho|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=G:\pizzaria\projeto\testenovo\packeg Atualizador para enviar\Order Taker\Atualização\Amarelinho7.2\Amarelinho7.3\Amarelinho 7.4\Amarelinho 5.0\Amarelinho5.1
+
+[Package|Tele BH Amarelinho|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Tele BH Amarelinho|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Tele BH Amarelinho|Files Found]
+
+[Package|Tele BH Amarelinho|Files Released]
+
+[Package|Tele BH Amarelinho|Missing Dependency Information]
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+C:\Windows\SysWOW64\msstdfmt.dll=
+C:\Windows\System32\imagehlp.dll=
+G:\pizzaria\projeto\Amarelinho 1.0.exe=
+G:\pizzaria\projeto\Amarelinho2.exe=
+
+[Package|Tele BH Amarelinho|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\comct232.ocx=
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\comctl32.ocx=
+C:\Windows\SysWOW64\comct332.ocx=
+C:\Windows\SysWOW64\msdatlst.ocx=
+C:\Windows\SysWOW64\msdatgrd.ocx=
+C:\Windows\SysWOW64\comdlg32.ocx=
+C:\Windows\SysWOW64\msmask32.ocx=
+
+[Package|Tele BH Amarelinho|Files Added]
+g:\odbc\mysql-connector-odbc-3.51.30-winx64.msi=
+g:\pizzaria\projeto\amarelinho 1.0.exe=
+g:\pizzaria\projeto\amarelinho2.exe=
+
+[Package|Tele BH Amarelinho|Files Removed]
+g:\odbc\mysql-connector-odbc-3.51.30-winx64.msi=
+
+[Package|Tele BH Amarelinho|Files In Project]
+G:\pizzaria\projeto\Amarelinho.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\msdatgrd.ocx=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\msdatlst.ocx=Yes
+C:\Windows\SysWOW64\comct332.ocx=Yes
+C:\Windows\SysWOW64\comctl32.ocx=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+C:\Windows\SysWOW64\comct232.ocx=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\odbc\mysql-connector-odbc-3.51.30-winx64.msi=No
+C:\Windows\System32\imagehlp.dll=Yes
+C:\Windows\SysWOW64\msmask32.ocx=Yes
+C:\Windows\SysWOW64\comdlg32.ocx=Yes
+G:\pizzaria\projeto\Amarelinho 1.0.exe=Yes
+G:\pizzaria\projeto\Amarelinho2.exe=Yes
+
+[Package|Tele BH Amarelinho|Configure Registry Files]
+Applicable=No
+
+[Package|Tele BH Amarelinho|Configure Remote Servers]
+Applicable=No
+
+[Package|Tele BH Amarelinho|Install Locations]
+G:\pizzaria\projeto\Amarelinho.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\msdatgrd.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msdatlst.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comct332.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comctl32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comct232.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\odbc\mysql-connector-odbc-3.51.30-winx64.msi=$(AppPath)
+C:\Windows\System32\imagehlp.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msmask32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comdlg32.ocx=$(WinSysPath)
+G:\pizzaria\projeto\Amarelinho 1.0.exe=$(AppPath)
+G:\pizzaria\projeto\Amarelinho2.exe=$(AppPath)
+
+[Package|Tele BH Amarelinho|Configure Shared Files]
+Applicable=Yes
+G:\pizzaria\projeto\Amarelinho.exe=Yes
+G:\odbc\mysql-connector-odbc-3.51.30-winx64.msi=Yes
+G:\pizzaria\projeto\Amarelinho 1.0.exe=Yes
+G:\pizzaria\projeto\Amarelinho2.exe=Yes
+
+[Package|Tele BH Amarelinho|Distribution]
+Type=single
+Size=
+Title=Tele Bh Amarelinho
+
+[Package|Tele BH Amarelinho|Package]
+PackageFolder=G:\pizzaria\projeto\testenovo\packeg Atualizador para enviar\Order Taker\Atualização\Amarelinho7.2\Amarelinho7.3\Amarelinho 7.4\Amarelinho 5.0\Amarelinho5.1
+ProjectFolder=G:\pizzaria\projeto
+ServerSideCab=
+File1=G:\pizzaria\projeto\testenovo\packeg Atualizador para enviar\Order Taker\Atualização\Amarelinho7.2\Amarelinho7.3\Amarelinho 7.4\Amarelinho 5.0\Amarelinho5.1\setup.exe
+File2=G:\pizzaria\projeto\testenovo\packeg Atualizador para enviar\Order Taker\Atualização\Amarelinho7.2\Amarelinho7.3\Amarelinho 7.4\Amarelinho 5.0\Amarelinho5.1\Setup.Lst
+File3=G:\pizzaria\projeto\testenovo\packeg Atualizador para enviar\Order Taker\Atualização\Amarelinho7.2\Amarelinho7.3\Amarelinho 7.4\Amarelinho 5.0\Amarelinho5.1\Amarelinho.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Tele BH Amarelinho|IconGroups]
+Group0=Order Taker
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Tele BH Amarelinho|Order Taker]
+Icon1=Amarelinho.exe
+Title1=Tele Bh Amarelinho
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Standard Setup Package 1|TEste novo]
+Icon1=Amarelinho.exe
+Title1=TEste novo
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=g:\visualBasic\testenovo\2410\2510
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Text=No
+Jet 2.x=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+Email.bat=G:\visualBasic\testenovo\Email.bat
+
+[Package|Standard Setup Package 1|Files Released]
+findfile.avi=
+1=
+pagamento.bat=
+whatsapp.bat=
+cep.mdb=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+C:\Windows\SysWOW64\msstdfmt.dll=
+C:\Windows\System32\imagehlp.dll=
+\\ROBOFILD-SERVER\Users\Atendimento\Programas\SHARMAQ\SHOficina\Atendimento\SHOficina\ChilkatAx-9.5.0-win32.dll=
+C:\Windows\System32\ieframe.dll=
+C:\Windows\SysWOW64\ChilkatAx-9.5.0-win32.dll=
+C:\Windows\System32\PortableDeviceConnectApi.dll=
+C:\Program Files (x86)\Common Files\microsoft shared\MSEnv\vslangproj.olb=
+G:\pizzaria\projeto\Amarelinho.exe=
+C:\Program Files (x86)\Common Files\DESIGNER\MSDE.DLL=
+C:\Windows\SysWOW64\MSDBRPTR.DLL=
+C:\Windows\SysWOW64\MSDE.DLL=
+C:\Windows\SysWOW64\vslangproj.olb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\comct232.ocx=
+C:\Windows\SysWOW64\mscomct2.ocx=
+C:\Windows\SysWOW64\comctl32.ocx=
+C:\Windows\SysWOW64\comct332.ocx=
+C:\Windows\SysWOW64\msdatlst.ocx=
+C:\Windows\SysWOW64\msdatgrd.ocx=
+C:\Windows\SysWOW64\comdlg32.ocx=
+C:\Windows\SysWOW64\msmask32.ocx=
+C:\Windows\SysWOW64\msinet.ocx=
+C:\Windows\SysWOW64\mscomm32.ocx=
+C:\Windows\SysWOW64\mswinsck.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+g:\odbc\mysql-connector-odbc-3.51.30-winx64.msi=
+j:\atualizador order taker\findfile.avi=
+g:\pizzaria\projeto\amarelinho.exe=
+g:\visualbasic\testenovo\email.bat=
+g:\visualbasic\testenovo\pagamento.bat=
+g:\visualbasic\testenovo\whatsapp.bat=
+g:\visualbasic\testenovo\cep.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+g:\pizzaria\projeto\amarelinho2.exe=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\msdatgrd.ocx=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\msdatlst.ocx=Yes
+C:\Windows\SysWOW64\comct332.ocx=Yes
+C:\Windows\SysWOW64\comctl32.ocx=Yes
+C:\Windows\SysWOW64\mscomct2.ocx=Yes
+C:\Windows\SysWOW64\comct232.ocx=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+G:\odbc\mysql-connector-odbc-3.51.30-winx64.msi=Yes
+C:\Windows\System32\imagehlp.dll=Yes
+C:\Windows\SysWOW64\msmask32.ocx=Yes
+C:\Windows\SysWOW64\comdlg32.ocx=Yes
+C:\Windows\System32\ieframe.dll=Yes
+C:\Windows\SysWOW64\msinet.ocx=Yes
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\vb5db.dll=Yes
+C:\Windows\SysWOW64\mscomm32.ocx=Yes
+J:\Atualizador Order Taker\FINDFILE.AVI=Yes
+C:\Windows\System32\PortableDeviceConnectApi.dll=Yes
+G:\pizzaria\projeto\Amarelinho.exe=Yes
+C:\Windows\SysWOW64\MSDBRPTR.DLL=Yes
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Windows\SysWOW64\vslangproj.olb=Yes
+C:\Windows\SysWOW64\MSDE.DLL=Yes
+C:\Windows\SysWOW64\mswinsck.ocx=Yes
+G:\visualBasic\testenovo\Email.bat=Yes
+G:\visualBasic\testenovo\pagamento.bat=Yes
+G:\visualBasic\testenovo\whatsapp.bat=Yes
+G:\visualBasic\testenovo\CEP.MDB=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+G:\pizzaria\projeto\Amarelinho.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\msdatgrd.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msdatlst.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comct332.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comctl32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\mscomct2.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comct232.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+G:\odbc\mysql-connector-odbc-3.51.30-winx64.msi=$(AppPath)
+C:\Windows\System32\imagehlp.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msmask32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\comdlg32.ocx=$(WinSysPath)
+C:\Windows\System32\ieframe.dll=$(WinSysPath)
+\\ROBOFILD-SERVER\Users\Atendimento\Programas\SHARMAQ\SHOficina\Atendimento\SHOficina\ChilkatAx-9.5.0-win32.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msinet.ocx=$(WinSysPath)
+C:\Order_Taker\CEP.MDB=$(AppPath)
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vb5db.dll=$(WinSysPath)
+C:\Windows\SysWOW64\mscomm32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\ChilkatAx-9.5.0-win32.dll=$(WinSysPath)
+C:\Order_Taker\GRAPHICS\AVIS\FINDFILE.AVI=$(AppPath)
+J:\Atualizador Order Taker\FINDFILE.AVI=$(AppPath)
+G:\pizzaria\projeto\Amarelinho2.exe=$(AppPath)
+C:\Program Files (x86)\Common Files\microsoft shared\MSEnv\vslangproj.olb=$(WinSysPath)
+C:\Windows\System32\PortableDeviceConnectApi.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\DESIGNER\MSDE.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Windows\SysWOW64\vslangproj.olb=$(WinSysPath)
+C:\Windows\SysWOW64\MSDE.DLL=$(WinSysPath)
+C:\Order_Taker\whatsapp.bat=$(AppPath)
+C:\Order_Taker\Email.bat=$(AppPath)
+C:\Order_Taker\pagamento.bat=$(AppPath)
+C:\Windows\SysWOW64\mswinsck.ocx=$(WinSysPath)
+G:\visualBasic\testenovo\whatsapp.bat=$(AppPath)
+G:\visualBasic\testenovo\Email.bat=$(AppPath)
+G:\visualBasic\testenovo\pagamento.bat=$(AppPath)
+G:\visualBasic\testenovo\CEP.MDB=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+G:\pizzaria\projeto\Amarelinho.exe=Yes
+G:\odbc\mysql-connector-odbc-3.51.30-winx64.msi=Yes
+C:\Order_Taker\CEP.MDB=Yes
+C:\Order_Taker\GRAPHICS\AVIS\FINDFILE.AVI=Yes
+J:\Atualizador Order Taker\FINDFILE.AVI=Yes
+G:\pizzaria\projeto\Amarelinho2.exe=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Order_Taker\whatsapp.bat=Yes
+C:\Order_Taker\Email.bat=Yes
+C:\Order_Taker\pagamento.bat=Yes
+G:\visualBasic\testenovo\whatsapp.bat=Yes
+G:\visualBasic\testenovo\Email.bat=Yes
+G:\visualBasic\testenovo\pagamento.bat=Yes
+G:\visualBasic\testenovo\CEP.MDB=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Tele Bh Amarelinho
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Order Taker
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Order Taker]
+Icon1=Amarelinho.exe
+Title1=Tele BH Amarelinho
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=g:\visualBasic\testenovo\2410\2510
+ProjectFolder=G:\pizzaria\projeto
+ServerSideCab=
+File1=g:\visualBasic\testenovo\2410\2510\setup.exe
+File2=g:\visualBasic\testenovo\2410\2510\Setup.Lst
+File3=g:\visualBasic\testenovo\2410\2510\Amarelinho.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
